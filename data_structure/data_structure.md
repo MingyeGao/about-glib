@@ -12,13 +12,11 @@ GHashTable* g_hash_table_new (GHashFunc hash_func, GEqualFunc key_equal_func);
 
 为 NULL 时，二者的默认值分别为 g_direct_hash 和 g_direct_equal，内部实现就是把 void* 转为 uint。
 
-glib 自带对以下类型数据结构的 hash 和 equal 函数：
+glib 自带对以下类型数据结构的 hash 和 equal 函数(`/usr/include/glib-2.0/glib/ghash.h`)：
 * str
 * int
 * int64
 * double
-
-g_hash_table 可以作为 set 或 dict 使用。
 
 ## 作为 set 使用
 * `g_hash_table_add` 加入元素；

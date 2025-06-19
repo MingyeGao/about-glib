@@ -1,6 +1,6 @@
-# glib 个人教程
+# About glib
 
-* [数据结构](./data_structure/data_structure.md)
+* [Data Structures](./data_structure/data_structure.md)
   * g_hash_table
   * g_list
 
