@@ -3,7 +3,7 @@ IO 多路复用的意义：单线程下可以管理多个文件描述符，不�
 
 glib 多路复用的关键函数是:
 ```c
-// /root/glib/glib/gpoll.c
+// glib/gpoll.c
 gint
 g_poll (GPollFD *fds,
 	guint    nfds,
