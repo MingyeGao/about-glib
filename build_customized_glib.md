@@ -22,7 +22,7 @@ glib 使用 meson 进行构建管理，需要使用 meson 版本 >= 1.4.0。
 
 我验证时使用 ubuntu 发行版，通过 apt 获取的 meson 达不到这个版本，所以需要使用 pip 安装指定版本。
 
-需要注意 pip 安装时需要以 sudo 安装。
+注意 pip 安装时需要以 sudo 安装。
 否则 meson setup 和 meson compile 使用非 root python 路径，meson install 强制切换为 root python 路径，路径不一致导致 include 文件不匹配，会导致 install 报错而失败。
 
 ## 构建与编译

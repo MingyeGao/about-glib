@@ -6,4 +6,4 @@
 
 * Main Context 
 
-* [Build Customized glib](./build_customized_glib.md)
+* [Build Customized Glib](./build_customized_glib.md)
