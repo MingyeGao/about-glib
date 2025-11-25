@@ -1,0 +1,7 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "clangd.enable": false,
+    "files.associations": {
+        "glib.h": "c"
+    }
+}
